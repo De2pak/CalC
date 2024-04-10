@@ -5,3 +5,43 @@
 body{
     background-color: burlywood;
 }
+.header{
+    height: 10  rem;
+    width: 100%;
+    background-color: black;
+    color:burlywood;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar img{
+    width: 5rem;
+    padding-left: 5rem;
+}
+#logo{
+    
+}
+#modeBtn{
+    margin-right: 3rem;
+    width: 6rem;
+    height: 3rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    background-color:burlywood;
+    color: black;
+    font-weight: bold;
+}
+.box{
+    background-color: lightgreen;
+    height: 30rem;
+    width: 25rem;
+    padding-left: .5rem;
+    padding-top: .5rem;
+}
+.box input{
+    width: 23rem;
+    height: 3rem;
+    
+}
