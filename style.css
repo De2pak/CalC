@@ -1,7 +1,120 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-color: burlywood;
+body {
+  background-color: burlywood;
+}
+.header {
+  height: 10 rem;
+  width: 100%;
+  background-color: black;
+  color: burlywood;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar img {
+  width: 5rem;
+  padding-left: 5rem;
+}
+#modeBtn {
+  margin-right: 3rem;
+  width: 6rem;
+  height: 3rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  background-color: burlywood;
+  color: black;
+  font-weight: bold;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 1rem;
+  background-color: black;
+  height: 25rem;
+  width: 20rem;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+}
+#screen {
+  margin-top: 0.5rem;
+  width: 19rem;
+  height: 3rem;
+  font-family: "Orbitron", sans-serif;
+  font-size: 2rem;
+}
+#time {
+  width: 8rem;
+  height: 2rem;
+  background-color: #636436;
+  outline: none;
+  margin-top: 0.5rem;
+}
+.topBtn {
+  margin-top: 1rem;
+  background-color: #ef8728;
+  border-radius: 1rem;
+  width: 5rem;
+  height: 2.5rem;
+  margin-left: 0.2rem;
+  border-style: none;
+  font-weight: bolder;
+}
+.topBtn:hover {
+  transform: scale(0.9);
+}
+.numBox {
+  margin-top: 0.5rem;
+  width: 16rem;
+  height: 15rem;
+  padding: 0.5rem;
+}
+.btn {
+  background-color: #67584e;
+  border-radius: 1rem;
+  margin-top: 0.5rem;
+  width: 5rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-style: none;
+}
+.btn:hover {
+  transform: scale(0.9);
+}
+#plus {
+  background-color: #ef8728;
+  margin-top: 1.5rem;
+  width: 2.5rem;
+  height: 7rem;
+  font-size: 40px;
+  border-radius: 1rem;
+  outline: none;
+  border-style: none;
+}
+#plus:hover {
+  transform: scale(0.9);
+}
+#equal {
+  background-color: #ef8728;
+  margin-top: 0.5rem;
+  width: 2.5rem;
+  height: 7rem;
+  font-size: 40px;
+  border-radius: 1rem;
+  outline: none;
+  border-style: none;
+}
+#equal:hover {
+  transform: scale(0.9);
 }
