@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
     <title>calculator</title>
   </head>
   <body>
@@ -15,18 +21,36 @@
       </div>
     </div>
     <div class="main">
-        <div class="box">
-            <input type="text" placeholder="0">
-            <button id = "btn">1</button>
-            <button id = "btn">2</button>
-            <button id = "btn">3</button>
-            <button id = "btn">4</button>
-            <button id = "btn">5</button>
-            <button id = "btn">6</button>
-            <button id = "btn">7</button>
-            <button id = "btn">8</button>
-            <button id = "btn">9</button>
+      <div class="box">
+        <div class="timeBox">
+          <input id="screen" type="text" placeholder="0" />
+          <input type="text" id="time" />
+          <button class="topBtn">C</button>
+          <button class="topBtn">AC</button>
         </div>
+        <div class="numBox">
+          <button class="btn">1</button>
+          <button class="btn">2</button>
+          <button class="btn">3</button>
+          <button class="btn">4</button>
+          <button class="btn">5</button>
+          <button class="btn">6</button>
+          <button class="btn">7</button>
+          <button class="btn">8</button>
+          <button class="btn">9</button>
+          <button class="btn">0</button>
+          <button class="btn">00</button>
+          <button class="btn">.</button>
+          <button class="btn">X</button>
+          <button class="btn">÷</button>
+          <button class="btn">-</button>
+        </div>
+        <div class="signBox">
+          <button id="plus">+</button>
+          <br />
+          <button id="equal">=</button>
+        </div>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
