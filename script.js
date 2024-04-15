@@ -9,9 +9,12 @@ modeBtn.addEventListener("click",()=>{
   if(currMode =="dark"){
     currMode = "light";
     document.querySelector("body").style.backgroundColor = "white";
+    modeBtn.innerHTML = "Light Mode";
   }else{
     document.querySelector("body").style.backgroundColor = "burlywood";
     currMode = "dark";
+    modeBtn.innerHTML = "Dark Mode";
+
   }
 });
 
