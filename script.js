@@ -40,5 +40,23 @@ for (let val of btnArray) {
       screen.value += str;
     }
   });
+
+};
+
+
+// script for time 
+let time = document.querySelector("#hour");
+let time2 = document.querySelector("#minutes");
+
+let date  = new Date();
+let hour = date.getHours();
+let minutes = date.getMinutes();
+if(hour >12){
+  hour = hour-12;
 }
+time.value = hour;
+time2.value = minutes;
+console.log(hour , minutes);
+
+
 
