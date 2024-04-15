@@ -1,5 +1,22 @@
 const btn = document.querySelectorAll(".btn");
 const screen = document.querySelector("#screen");
+let modeBtn = document.querySelector("#modeBtn");
+ let currMode = "dark";
+
+// Script for Mode change
+modeBtn.addEventListener("click",()=>{
+  
+  if(currMode =="dark"){
+    currMode = "light";
+    document.querySelector("body").style.backgroundColor = "white";
+  }else{
+    document.querySelector("body").style.backgroundColor = "burlywood";
+    currMode = "dark";
+  }
+});
+
+
+//Script for calculator body
 let btnArray = Array.from(btn);
 let str = "";
 for (let val of btnArray) {
@@ -21,3 +38,4 @@ for (let val of btnArray) {
     }
   });
 }
+
